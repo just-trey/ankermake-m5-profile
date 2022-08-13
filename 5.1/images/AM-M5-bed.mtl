@@ -1,5 +1,8 @@
 # Exported from 3D Builder
 
+newmtl Material.001_0
+Kd 0.800000 0.800000 0.800000
+
 newmtl Mat_0
 Kd 1.000000 1.000000 1.000000
 map_Kd D:\Documents\Projects\AnkerMake-M5-Profile\5.1\images\am-bed-texture.png
