@@ -6,9 +6,8 @@
     "visible": true,
     "author": "just-trey",
     "manufacturer": "AnkerMake",
-    "icon": "am-icon.png",
-    "platform_texture": "am-bed-texture.png",
-    "platform": "AM-M5-bed.obj",
+    "platform_texture": "ankermake_m5.png",
+    "platform": "ankermake_m5_platform.obj",
     "has_machine_quality": true,
     "preferred_quality_type": "normal",
     "file_formats": "text/x-gcode",
@@ -151,6 +150,14 @@
     "raft_airgap": { "default_value": 0.25 },
     "brim_width": { "default_value": 5 },
     "machine_gcode_flavor": { "default_value": "RepRap (Marlin/Sprinter)" },
+    "machine_head_with_fans_polygon": {
+      "default_value": [
+        [-50, 25],
+        [-50, -60],
+        [50, 25],
+        [50, -60]
+      ]
+    },
     "machine_start_gcode": {
       "default_value": "G28 ;Home\nG1 Z15.0 F6000 ;Move the platform down 15mm\n;Prime the extruder\nG92 E0\nG1 F200 E3\nG92 E0"
     },
