@@ -1,6 +1,6 @@
 # AnkerMake M5 Cura 5.1+ Profiles
 
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/just-trey/AnkerMake-M5-Profile/releases)
 ─
 Version: 1.3
 by: just-trey
