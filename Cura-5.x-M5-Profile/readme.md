@@ -6,14 +6,14 @@
 
 # Overview
 
-The profiles provided will allow you to add the AnkerMake M5 as a new printer in the menus.
+These profiles will allow you to add the AnkerMake M5 as a new printer in the menus.
 Installing the profile:
 1. Open Cura
-2. Under the Help Menu choose "Show Configuraiton Folder" (keep this folder open for the next several staps). 
+2. Under the Help Menu, choose "Show Configuration Folder" (keep this folder open for the next several steps). 
 3. Close out of Cura 
 5. Download [Cura-5.x-M5-Profile.zip](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest/download/Cura-5.x-M5-Profile.zip)
 6. Extract the zip file to a location of your choice and open the folder. 
-7. Copy the Contents of this folder to the Configuraiton folder you opend step two. (Note you will be adding files to the directories) 
+7. Copy the Contents of this folder to the Configuration folder you opened in step two. (Note you will be adding files to the directories) 
 8. Open Cura, and you should not be able to add a new AnkerMake M5 Printer.
 ![image](https://user-images.githubusercontent.com/10281380/204983099-ebb1007c-1171-4e68-a2e7-a2620efcca1b.png)
 Optional: Enter a new Printer Name
@@ -30,7 +30,7 @@ You now should have an AnkerMake M5 with some basic built-in Printer Profiles.
   - Tested to ensure high-speed printing is functioning
   - Updated printing temperature logic to work correctly.
   - Added slight extrusion to start gcode to compensate for over-retraction after prime
-- Clarified instruciton to locate folders
+- Clarified instructions to locate folders
 - Migrated instructions From Google Docs to GitHub
 - Reversed the order of the changelog to show the newest first
 
@@ -44,17 +44,12 @@ You now should have an AnkerMake M5 with some basic built-in Printer Profiles.
 ### 1.2 - 10/22/2022
 
 Fixed retraction amount defaults.
-Adjusted acceleration to AnkerMake recommended settings
-Completely rebuilt settings from Anker profiles so the values are consistent
+Adjusted acceleration to AnkerMake recommended settings.
+Completely rebuilt settings from Anker profiles, so the values are consistent.
 Update start and end gcode to Anker defaults
 Added custom bed png image
 Added more detailed settings provided by others
 
 ### 1.1 - Bug Fixes
 
-- Complete refactor based on feedback form Cura team
-  - profile compleixty has been reduced
-  - Reduce the amount of overriding of base configs
-   of  base configu
-- Migrated instuctions From Google Doc to GitHub
-- Reversed the order of the changelog to show newest first
+### 1.0 - Initial Release
