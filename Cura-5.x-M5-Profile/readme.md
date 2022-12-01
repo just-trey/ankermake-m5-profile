@@ -9,7 +9,7 @@
 The profiles provided will allow you to add the AnkerMake M5 as a new printer in the menus.
 Installing the profile:
 1. Open Cura
-2. Under the Help Menu choose "Show Configuraiton Folder" (keep this folder open for ne next sevear staps. 
+2. Under the Help Menu choose "Show Configuraiton Folder" (keep this folder open for the next several staps). 
 3. Close out of Cura 
 5. Download [Cura-5.x-M5-Profile.zip](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest/download/Cura-5.x-M5-Profile.zip)
 6. Extract the zip file to a location of your choice and open the folder. 
