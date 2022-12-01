@@ -1,6 +1,6 @@
 # AnkerMake M5 Cura 5.1+ Profiles
 
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?include_prereleases&sort=semver&style=for-the-badge)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?sort=semver&style=for-the-badge)
 
 ![image](https://user-images.githubusercontent.com/10281380/204983009-1b896ab9-774d-414d-adbe-b3f8aad5ccf2.png)
 
