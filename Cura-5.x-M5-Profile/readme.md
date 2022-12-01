@@ -2,25 +2,23 @@
 
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?include_prereleases&sort=semver&style=for-the-badge)
 
+![image](https://user-images.githubusercontent.com/10281380/204983009-1b896ab9-774d-414d-adbe-b3f8aad5ccf2.png)
+
 # Overview
 
 The profiles provided will allow you to add the AnkerMake M5 as a new printer in the menus.
-Installing the profile
-Download the zip file: (<https://bit.ly/3AjvU2q>)
-Extract the zip file to a location of your choice.
-Go into the extracted files → Cura-5.x-M5-Profile folder.
-Open Cura
-Copy the Contents of this folder to:
-PC: C:\Users\[USER]\AppData\Roaming\cura\5.(x)
-(x) indicates your current cura version
-Mac: ~/Library/Application Support/cura/5.(x)
-(x) indicates your current cura version
-The Library folder is hidden by default, ensure you are showing hidden files/folders.
-Open Cura, and you should not be able to add a new AnkerMake M5 Printer.
-
+Installing the profile:
+1. Open Cura
+2. Under the Help Menu choose "Show Configuraiton Folder" (keep this folder open for ne next sevear staps. 
+3. Close out of Cura 
+5. Download [Cura-5.x-M5-Profile.zip](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest/download/Cura-5.x-M5-Profile.zip)
+6. Extract the zip file to a location of your choice and open the folder. 
+7. Copy the Contents of this folder to the Configuraiton folder you opend step two. (Note you will be adding files to the directories) 
+8. Open Cura, and you should not be able to add a new AnkerMake M5 Printer.
+![image](https://user-images.githubusercontent.com/10281380/204983099-ebb1007c-1171-4e68-a2e7-a2620efcca1b.png)
 Optional: Enter a new Printer Name
 Complete the printer setup
-You now should have an AnkerMake M5 with some base built-in Printer Profiles.
+You now should have an AnkerMake M5 with some basic built-in Printer Profiles.
 
 ## Changelog
 
@@ -32,6 +30,7 @@ You now should have an AnkerMake M5 with some base built-in Printer Profiles.
   - Tested to ensure high-speed printing is functioning
   - Updated printing temperature logic to work correctly.
   - Added slight extrusion to start gcode to compensate for over-retraction after prime
+- Clarified instruciton to locate folders
 - Migrated instructions From Google Docs to GitHub
 - Reversed the order of the changelog to show the newest first
 
