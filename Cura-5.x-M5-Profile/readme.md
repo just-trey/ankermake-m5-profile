@@ -1,18 +1,17 @@
 # AnkerMake M5 Cura 5.1+ Profiles
 
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/just-trey/AnkerMake-M5-Profile/releases)
-─
-Version: 1.3
-by: just-trey
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?include_prereleases&sort=semver&style=for-the-badge)
 
-Changelog
-1.4 - 12-1-2022
-Reversed the order of the changelog to show newest first
+## Changelog
+1.4 - 12/1/2022
+- Reversed the order of the changelog to show newest first
+
 1.3 - 11-16-2022
-Added “machine_head_with_fans_polygon” for one-at-a-time printing
-Renamed image and platform object to match with GitHub submission. (https://github.com/Ultimaker/Cura/pull/13628/)
-Slight modification to the file structure
-Updated directions. 
+- Added “machine_head_with_fans_polygon” for one-at-a-time printing
+- Renamed image and platform object to match with GitHub submission. (https://github.com/Ultimaker/Cura/pull/13628/)
+- Slight modification to the file structure
+- Updated directions. 
+
 1.2 - 10-22-2022 - 
 Fixed retraction amount defaults. 
 Adjusted acceleration to AnkerMake recommended settings
