@@ -24,6 +24,11 @@ You now should have an AnkerMake M5 with some basic built-in Printer Profiles.
 
 ### 1.4 - 12/1/2022
 
+- add back in "extruder_nr": { "default_value": 0 }, to pass unit test and fix bug.
+- fix typos in this readme.md
+
+### 1.4 - 12/1/2022
+
 - Complete refactor based on feedback from the Cura team to simplify the profile
   - Updated to follow new linting rules and suggestions
   - Significant reduction of base configuration overrides
