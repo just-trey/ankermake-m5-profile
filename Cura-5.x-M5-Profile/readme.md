@@ -4,7 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/10281380/204983009-1b896ab9-774d-414d-adbe-b3f8aad5ccf2.png)
 
-# Overview
+## Known "Issues"
+
+- Printed speed will report and warn higher than 5x because of how Cura calculates speed. There are no significant quality or other impacts on the actual print.
+
+## Overview
 
 These profiles will allow you to add the AnkerMake M5 as a new printer in the menus.
 Installing the profile:
@@ -23,9 +27,29 @@ You now should have an AnkerMake M5 with some basic built-in Printer Profiles.
 
 ## Changelog
 
+### 1.7 - 12/4/2022
+
+- Significant quality updates based on feedback from @Tenson_UK
+  - For the normal profile, set the first layer height to match the rest of the print. (0.2)
+  - Set "Initial Layer Horizontal Expansion" and "Hole Horizontal Expansion" to improve quality
+  - Set "Top/Bottom Thickness" to improve quality
+  - Changed infill logic to increase infill speeds.
+    - NOTE: Part strength is slightly weaker, so adjust as needed.
+  - Changed print temperature logic for more consistency
+  - Changed "Top/Bottom Flow" and "Initial Layer Flow" to improve print quality
+  - Set "Combing Mode" to "Within Infill" to reduce the number of retractions.
+  - Complete rework of support settings that provides easy removal and good part support.
+    - NOTE: Tree supports have no optimization at this time.
+  - Adjusted the following experimental settings to improve print quality.
+    - "Overhanging Wall Angle"
+    - "Overhanging Wall Speed
+    - "Small Hole Max Size"
+    - "Small Feature Initial Layer Speed"
+- Regrouping/ordering of overrides to match base setting order
+
 ### 1.6 - 12/4/2022
 
-- set retraciton speed to 60 to fix speed issue
+- set retraciton speed to 60 to match AnkerMake defaults
 
 ### 1.5 - 12/1/2022
 
