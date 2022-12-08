@@ -12,6 +12,10 @@ These configurations allow you to add the AnkerMake M5 as a new printer in the m
 
 - Anything with less than 1 hour of print time will display a considerable remaining time on the printer but does not affect the actual print time.
 
+## Note: 
+
+The configuration authors strongly believe there is no "one size fits all" profile. These profiles provide an excellent base to get started, but we highly encourage users to learn and adjust their slicer settings to suit their use case. 
+
 ## Installing the profile
 
 1. Open PrusaSlicer
