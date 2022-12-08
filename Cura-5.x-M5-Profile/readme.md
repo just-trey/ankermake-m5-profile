@@ -8,6 +8,10 @@
 
 - Printed speed will report and warn higher than 5x because of how Cura calculates speed. There are no significant quality or other impacts on the actual print.
 
+## Note: 
+
+The configuration authors strongly believe there is no "one size fits all" profile. These profiles provide an excellent base to get started, but we highly encourage users to learn and adjust their slicer settings to suit their use case. 
+
 ## Overview
 
 These profiles will allow you to add the AnkerMake M5 as a new printer in the menus.
