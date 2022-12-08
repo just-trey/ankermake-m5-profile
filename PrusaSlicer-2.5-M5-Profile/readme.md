@@ -1,6 +1,6 @@
 # AnkerMake M5 PrusaSlicer 2.5+ Profiles
 
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?sort=semver&style=for-the-badge)
+[![GitHub release](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?display_name=tag&sort=semver&style=for-the-badge)](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest)
 
 ![image](https://user-images.githubusercontent.com/10281380/204983009-1b896ab9-774d-414d-adbe-b3f8aad5ccf2.png)
 
