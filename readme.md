@@ -19,8 +19,8 @@ We will actively maintain this repository to store the configurations for both p
 
 ## Licences
 
-- Cura profiles are under released under the [GNU LESSER GENERAL PUBLIC LICENSE v3.0](Cura-5.x-M5-Profile/LICENSE.md).
-- Prusa prfiles are under released under the [GNU AFFERO GENERAL PUBLIC LICENSE](PrusaSlicer-2.5-M5-Profile/LICENSE.md).
+- Cura profiles are under released under the [GNU LESSER GENERAL PUBLIC LICENSE v3.0](Cura-5.x-M5-Profile/LICENSE).
+- Prusa prfiles are under released under the [GNU AFFERO GENERAL PUBLIC LICENSE](PrusaSlicer-2.5-M5-Profile/LICENSE).
 
 ## Changelog
 
