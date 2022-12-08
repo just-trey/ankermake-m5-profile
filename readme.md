@@ -6,8 +6,8 @@
 
 Jump straight to the setup instructions.
 
-- Instructions for Cura
-- Instructions for PrusaSlicer
+- [Instructions for Cura](Cura-5.x-M5-Profile/readme.md)
+- [Instructions for PrusaSlicer](PrusaSlicer-2.5-M5-Profile/readme.md)
 
 ![profiles-banner](https://user-images.githubusercontent.com/10281380/206341851-6a81243b-2194-4606-a427-f6ad40b8274d.png)
 

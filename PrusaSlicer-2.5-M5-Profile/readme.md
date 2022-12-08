@@ -14,17 +14,12 @@ These configurations allow you to add the AnkerMake M5 as a new printer in the m
 
 ## Installing the profile
 
-1. Ensure you have run PrusaSlicer at least once
-1. Ensure PrusaSlicer is closed
+1. Open PrusaSlicer
+1. Under the Help Menu, choose "Show Configuration Folder" (keep this folder open for the next several steps).
+1. Close out of PrusaSlicer
 1. Download [PrusaSlicer-2.5-M5-Profile.zip](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest/download/PrusaSlicer-2.5-M5-Profile.zip)
-1. Extract the zip file to a location of your choice.
-1. Go into the extracted files → PrusaSlicer-2.5-M5-Profile folder.
-1. Copy the Vendor folder to:
-
-- PC: C:\Users\[USER]\AppData\Roaming\PrusaSlicer
-- Mac: “HDD” → ⁨Users⁩ → ⁨username⁩ → ⁨Library⁩ → ⁨Application Support⁩ → ⁨PrusaSlicer
-- Linux: ~/.config/PrusaSlicer
-
+1. Extract the zip file to a location of your choice and open the folder.
+1. Copy the Contents of this folder to the Configuration folder you opened in step two. (Note you will be adding files to the directories)
 1. Open PrusaSlicer, and you should now be able to add a new AnkerMake M5 Printer. (printer Settings tab → Printer drop-down → Add/remove printers
 1. In the Configuration Wizard, choose Other Vendors:
 1. Select the AnkerMake Checkbox
