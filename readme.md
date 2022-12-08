@@ -1,6 +1,6 @@
 # AnkerMake M5 Profiles
 
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?sort=semver&style=for-the-badge)
+[![GitHub release](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?display_name=tag&sort=semver&style=for-the-badge)](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest)
 
 ## Quickstart
 
