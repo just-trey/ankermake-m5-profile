@@ -15,4 +15,9 @@ This repository contains the latest versions of the AnkerMake M5 configurations 
 
 We will actively maintain this repository to store the configurations for both products, allowing for iterative improvement and testing of the profiles.
 
+## Licences
+- Cura profiles are under released under the GNU LESSER GENERAL PUBLIC LICENSE v3.0
+- Prusa prfiles are under released under the GNU AFFERO GENERAL PUBLIC LICENSE
+
+## Changelog
 [View Changelog](changelog.md)
