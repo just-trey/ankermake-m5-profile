@@ -1,6 +1,16 @@
-## Changelog
+# Changelog
 
-### 1.8 - 12/7/2022
+## 1.9
+
+- Cura Profile Changes
+  - Reset xy_offset_layer_0 to default to fix issue when using a brim
+  - Added max acceleration speed logic
+- Prusa Slicer Profile Changes
+  - Add a 0.6 nozzle profile
+- Other changes
+  - Fix typo in Cura readme.md
+
+## 1.8 - 12/7/2022
 
 - Cura Profile Changes
   - none
@@ -13,7 +23,7 @@
   - moved the changelog to its dedicated file
   - merged Prusa Slicer and Cura changelogs into one for ease of tracking
 
-### 1.7 - 12/4/2022
+## 1.7 - 12/4/2022
 
 - Cura Profile Changes
   - Significant quality updates based on feedback from @Tenson_UK
@@ -36,14 +46,14 @@
 - Prusa Slicer Profile Changes
   - none
 
-### 1.6 - 12/4/2022
+## 1.6 - 12/4/2022
 
 - Cura Profile Changes
   - set retraciton speed to 60 to match AnkerMake defaults
 - Prusa Slicer Profile Changes
   - none
 
-### 1.5 - 12/1/2022
+## 1.5 - 12/1/2022
 
 - Cura Profile Changes
   - add back in "extruder_nr": { "default_value": 0 }, to pass unit test and fix bug.
@@ -51,7 +61,7 @@
 - Prusa Slicer Profile Changes
   - none
 
-### 1.4 - 12/1/2022
+## 1.4 - 12/1/2022
 
 - Cura Profile Changes
   - Complete refactor based on feedback from the Cura team to simplify the profile
@@ -66,7 +76,7 @@
 - Prusa Slicer Profile Changes
   - none
 
-### 1.3 - 11/16/2022
+## 1.3 - 11/16/2022
 
 - Cura Profile Changes
   - Added “machine_head_with_fans_polygon” for one-at-a-time printing
@@ -76,7 +86,7 @@
 - Prusa Slicer Profile Changes
   - none
 
-### 1.2 - 10/22/2022
+## 1.2 - 10/22/2022
 
 - Cura Profile Changes
   - Fixed retraction amount defaults.
@@ -96,6 +106,6 @@
   - Adjusted bed temperatures for ABS
   - Fix PLA+ inheriting values from PLA
 
-### 1.1 - Bug Fixes
+## 1.1 - Bug Fixes
 
-### 1.0 - Initial Release
+## 1.0 - Initial Release
