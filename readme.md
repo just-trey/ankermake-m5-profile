@@ -1,6 +1,8 @@
 # AnkerMake M5 Profiles
 
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?sort=semver&style=for-the-badge)
+[![GitHub release](https://img.shields.io/github/v/release/just-trey/AnkerMake-M5-Profile?display_name=tag&sort=semver&style=for-the-badge)](https://github.com/just-trey/AnkerMake-M5-Profile/releases/latest)
+
+![profiles-banner](https://user-images.githubusercontent.com/10281380/206341851-6a81243b-2194-4606-a427-f6ad40b8274d.png)
 
 ## Quickstart
 
@@ -9,7 +11,18 @@ Jump straight to the setup instructions.
 - [Instructions for Cura](Cura-5.x-M5-Profile/readme.md)
 - [Instructions for PrusaSlicer](PrusaSlicer-2.5-M5-Profile/readme.md)
 
-![profiles-banner](https://user-images.githubusercontent.com/10281380/206341851-6a81243b-2194-4606-a427-f6ad40b8274d.png)
+## How to print via wifi after slicing
+
+Printing files via wifi is supported but not directly from Cura or PrusaSlicer. You may print via wifi using the AnkerMake Slicer. Unfortunately, AI detection is not available. 
+
+### Steps:
+
+1. Slice and save your gcode to a location of your choice
+1. Make sure your AnkerMake M5 printer is on and connected to wifi
+1. Open the AnkerMake Slicer
+1. Click on the Device tab
+1. Click on the My Computer icon and select your sliced file. ![image](https://user-images.githubusercontent.com/10281380/206552887-486043c2-3329-4105-ad99-438bf1f64516.png)
+1. Click Print underneath the device details. ![image](https://user-images.githubusercontent.com/10281380/206553190-b5b8a1b8-454d-46a1-8b97-368d6a0632d6.png)
 
 ## Overview
 
