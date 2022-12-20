@@ -13,9 +13,9 @@ Jump straight to the setup instructions.
 
 ## How to print via wifi after slicing
 
-Printing files via wifi is supported but not directly from Cura or PrusaSlicer. You may print via wifi using the AnkerMake Slicer. Unfortunately, AI detection is not available. 
+Printing files via wifi is supported but not directly from Cura or PrusaSlicer. You may print via wifi using the AnkerMake Slicer. Unfortunately, AI detection is not available.
 
-### Steps:
+### Steps
 
 1. Slice and save your gcode to a location of your choice
 1. Make sure your AnkerMake M5 printer is on and connected to wifi
