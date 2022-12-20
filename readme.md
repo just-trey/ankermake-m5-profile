@@ -24,7 +24,6 @@ Printing files via wifi is supported but not directly from Cura or PrusaSlicer. 
 1. Click on the My Computer icon and select your sliced file. ![image](https://user-images.githubusercontent.com/10281380/206552887-486043c2-3329-4105-ad99-438bf1f64516.png)
 1. Click Print underneath the device details. ![image](https://user-images.githubusercontent.com/10281380/206553190-b5b8a1b8-454d-46a1-8b97-368d6a0632d6.png)
 
-
 ## Overview
 
 This repository contains the latest versions of the AnkerMake M5 configurations for both Cura and PrusaSlicer. These profiles have officially been submitted to Cura and PrusaSlicer projects, and the configurations will be available to install directly within Cura and PrusaSlicer in their upcoming versions.

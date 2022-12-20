@@ -1,20 +1,18 @@
 {
-  "name": "AnkerMake M5",
   "version": 2,
+  "name": "AnkerMake M5",
   "inherits": "fdmprinter",
   "metadata": {
     "visible": true,
     "author": "just-trey",
     "manufacturer": "AnkerMake",
-    "platform_texture": "ankermake_m5.png",
+    "file_formats": "text/x-gcode",
     "platform": "ankermake_m5_platform.obj",
     "has_machine_quality": true,
-    "preferred_quality_type": "normal",
-    "file_formats": "text/x-gcode",
-    "machine_extruder_trains": {
-      "0": "ankermake_m5_extruder_0"
-    },
-    "preferred_material": "generic_pla"
+    "machine_extruder_trains": { "0": "ankermake_m5_extruder_0" },
+    "platform_texture": "ankermake_m5.png",
+    "preferred_material": "generic_pla",
+    "preferred_quality_type": "normal"
   },
 
   "overrides": {
@@ -29,7 +27,6 @@
     "machine_heated_bed": { "default_value": true },
     "gantry_height": { "value": 25 },
 
-    "xy_offset_layer_0": { "value": -0.2 },
     "hole_xy_offset": { "value": 0.2 },
 
     "top_bottom_thickness": { "value": "layer_height * 4" },
@@ -71,8 +68,32 @@
     "speed_support_roof": { "maximum_value_warning": 255 },
     "speed_support_bottom": { "maximum_value_warning": 255 },
     "speed_topbottom": { "value": 150.0 },
-    "acceleration_print": { "value": "2500" },
     "speed_travel": { "value": 250.0 },
+    "acceleration_enabled": { "value": "true" },
+    "acceleration_print": { "maximum_value_warning": "2500", "value": "2500" },
+    "acceleration_infill": { "maximum_value_warning": "2500" },
+    "acceleration_wall": { "maximum_value_warning": "2500" },
+    "acceleration_wall_0": { "maximum_value_warning": "2500" },
+    "acceleration_wall_x": { "maximum_value_warning": "2500" },
+    "acceleration_roofing": { "maximum_value_warning": "2500" },
+    "acceleration_topbottom": { "maximum_value_warning": "2500" },
+    "acceleration_support": { "maximum_value_warning": "2500" },
+    "acceleration_support_infill": { "maximum_value_warning": "2500" },
+    "acceleration_support_interface": { "maximum_value_warning": "2500" },
+    "acceleration_support_roof": { "maximum_value_warning": "2500" },
+    "acceleration_support_bottom": { "maximum_value_warning": "2500" },
+    "acceleration_prime_tower": { "maximum_value_warning": "2500" },
+    "acceleration_travel": {
+      "maximum_value_warning": "2500",
+      "value": "acceleration_print"
+    },
+    "acceleration_layer_0": { "maximum_value_warning": "2500" },
+    "acceleration_print_layer_0": { "maximum_value_warning": "2500" },
+    "acceleration_travel_layer_0": {
+      "maximum_value_warning": "2500",
+      "value": "acceleration_travel"
+    },
+    "acceleration_skirt_brim": { "maximum_value_warning": "2500" },
 
     "retraction_amount": { "default_value": 1.5 },
     "retraction_speed": { "default_value": 60 },
@@ -92,9 +113,6 @@
     },
     "support_z_distance": { "value": "layer_height * 2" },
     "support_xy_distance": { "value": "wall_line_width_0 * 2" },
-    "support_top_distance": {
-      "value": "extruderValue(support_roof_extruder_nr if support_roof_enable else support_infill_extruder_nr, 'support_z_distance') + (layer_height if support_structure == 'tree' else 0)"
-    },
     "support_xy_overrides_z": { "value": "'xy_overrides_z'" },
     "support_xy_distance_overhang": { "value": "wall_line_width_0" },
     "support_brim_width": { "value": 4.0 },
@@ -111,7 +129,6 @@
 
     "wall_overhang_angle": { "value": 55 },
     "wall_overhang_speed_factor": { "value": 55 },
-    "small_hole_max_size": { "value": 10 },
-    "small_feature_speed_factor_0": { "value": 50 }
+    "small_hole_max_size": { "value": 10 }
   }
 }
