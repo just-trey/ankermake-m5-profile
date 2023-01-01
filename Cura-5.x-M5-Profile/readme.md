@@ -7,6 +7,10 @@
 ## Known Issues
 
 - Printed speed will report and warn higher than 5x because of how Cura calculates speed. There are no significant quality or other impacts on the actual print.
+- Sequential printing (print sequence: one at a time) has weird quirks:
+  - Adjusting the fan speed from the display during print, will cause the fan speed to no longer regulate itself in subsequent objects. It will keep the set fan speed until the end of the object, drop down to the 'first layer(s)' setting and then remain at that. It will no longer spin back up.
+  - Ankerslicer doesn't display the per object skirts correctly
+  - Ankerslicer preview will not display layers properly for any object after the first. It will instead pop in the entire object into view after the first layer is shown by layer selector on the right
 
 ## Note
 
