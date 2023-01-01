@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.11
+
+- Cura Profile Changes
+  - Fix mistake with the End G-code to move z-axis
+- Prusa Slicer Profile Changes
+  - Fix mistake with the End G-code to move z-axis
 ## 1.10
 
 - Cura Profile Changes
