@@ -52,7 +52,7 @@
         "cool_min_layer_time": { "value": 6 },
         "cool_min_speed": { "value": 30 },
         "gantry_height": { "value": 30 },
-        "machine_head_with_fans_polygon": {"value": [[-50, 56], [-50, -20], [44, 56], [44, -20]]},
+        "machine_head_with_fans_polygon": {"value": [[-55, 25], [-55, -60], [44, 25], [44, -60]]},
         "hole_xy_offset": { "value": 0.2 },
         "infill_pattern": { "value": "'lines' if infill_sparse_density >= 25 else 'grid'" },
         "infill_sparse_density": { "value": 25 },
