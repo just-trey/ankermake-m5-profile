@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.10
+
+- Cura Profile Changes
+  - Update extruder dimensions for better support for sequential printing
+  - Added sequential printing quirks to known issues
+  - End G-code updated to include 8mm Z-move to avoid collissions with same height objects during sequential printing
+- Prusa Slicer Profile Changes
+  - Update extruder dimensions for better support for sequential printing
+  - Added sequential printing quirks to known issues
+  - End G-code updated to include 8mm Z-move to avoid collissions with same height objects during sequential printing
+
 ## 1.9
 
 - Cura Profile Changes
