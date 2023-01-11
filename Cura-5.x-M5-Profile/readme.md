@@ -7,6 +7,13 @@
 ## Known Issues
 
 - Printed speed will report and warn higher than 5x because of how Cura calculates speed. There are no significant quality or other impacts on the actual print.
+- Sequential printing (print sequence: one at a time) has weird quirks:
+  - Adjusting the fan speed from the display during print, will cause the fan speed to no longer regulate itself in subsequent objects. It will keep the set fan speed until the end of the object, drop down to the 'first layer(s)' setting and then remain at that. It will no longer spin back up.
+  - Pausing the print from the display during printing, will cause the extruder to move directly to FRONT left of the build plate. It will not raise the Z-axis and thus will collide with any objects along it's path.
+  - Ankerslicer preview doesn't display the per object skirts correctly (they will print correctly)
+  - Ankerslicer preview will not display layers properly for any object after the first. It will instead pop in the entire object into view after the first layer is shown by layer selector on the right
+  - **Note:** The gantry is roughly 30mm tall, however the X-axis stop on the left of the extruder brings this down to 23mm
+  
 
 ## Note
 

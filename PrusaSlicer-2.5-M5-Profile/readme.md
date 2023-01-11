@@ -11,6 +11,10 @@ These configurations allow you to add the AnkerMake M5 as a new printer in the m
 ## Known Issues
 
 - Anything with less than 1 hour of print time will display a considerable remaining time on the printer but does not affect the actual print time.
+- Sequential printing (Print settings -> output options -> Complete individual objects) has weird quirks:
+  - Adjusting the fan speed from the display during print, will cause the fan speed to no longer regulate itself in subsequent objects. It will keep the set fan speed until the end of the object, drop down to the 'first layer(s)' setting and then remain at that. It will no longer spin back up.
+  - Pausing the print from the display during printing, will cause the extruder to move directly to FRONT left of the build plate. It will not raise the Z-axis and thus will collide with any objects along it's path.
+  - **Note:** The gantry is roughly 30mm tall, however the X-axis stop on the left of the extruder brings this down to 23mm
 
 ## Note
 
