@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.10
+
+- Cura Profile Changes
+  - Apply tranparency to bed plate to be able to work underneath
+  - Add M420 S1 to str gcode per user request fro bed leveling
+  - Fixed start gcode typo
+- Prusa Slicer Profile Changes
+  - Apply tranparency to bed plate to be able to work underneath
+  - Add M420 S1 to str gcode per user request fro bed leveling
+- Other changes
+  - Renamed primary branch to Main
+
 ## 1.9
 
 - Cura Profile Changes
