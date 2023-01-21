@@ -4,11 +4,13 @@
 
 - Cura Profile Changes
   - Apply tranparency to bed plate to be able to work underneath
-  - Add M420 S1 to str gcode per user request fro bed leveling
-  - Fixed start gcode typo
+  - Add M420 S1 to start gcode for bed leveling (via contribution from @imadcat)
+  - Fixed start gcode typo (via contribution from @JaredTamana)
 - Prusa Slicer Profile Changes
   - Apply tranparency to bed plate to be able to work underneath
-  - Add M420 S1 to str gcode per user request fro bed leveling
+  - Add M420 S1 to start gcode for bed leveling (via contribution from @imadcat)
+  - Fixed start gcode typo (via contribution from @JaredTamana)
+  - Update file name format and remove comma to prevent eport name issue on Mac
 - Other changes
   - Renamed primary branch to Main
 
