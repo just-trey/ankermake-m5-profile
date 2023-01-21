@@ -59,7 +59,7 @@
         "machine_heated_bed": { "default_value": true },
         "machine_height": { "default_value": 250 },
         "machine_name": { "default_value": "AnkerMake M5" },
-        "machine_start_gcode": { "default_value": "M104 S{material_print_temperature_layer_0} ; set final nozzle temp\nM190 S{material_bed_temperature_layer_0} ; set and wait for nozzle temp to stabilize\nM109 S{material_print_temperature_layer_0} ; wait for nozzle temp to stabilize\nG28 ;Home\nM420 S1; restore saved Auto Bed Leveling data\nG1 E10 F3600; push out retracted filament(fix for over retraction after prime)" },
+        "machine_start_gcode": { "default_value": "M104 S{material_print_temperature_layer_0} ; set final nozzle temp\nM190 S{material_bed_temperature_layer_0} ; set and wait for bed temp to stabilize\nM109 S{material_print_temperature_layer_0} ; wait for nozzle temp to stabilize\nG28 ;Home\nM420 S1; restore saved Auto Bed Leveling data\nG1 E10 F3600; push out retracted filament(fix for over retraction after prime)" },
         "machine_width": { "default_value": 235 },
         "material_bed_temperature": { "maximum_value_warning": "110" },
         "material_bed_temperature_layer_0": { "maximum_value_warning": "110" },
