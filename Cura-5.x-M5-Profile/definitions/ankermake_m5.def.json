@@ -56,6 +56,7 @@
         "infill_pattern": { "value": "'lines' if infill_sparse_density >= 25 else 'grid'" },
         "infill_sparse_density": { "value": 25 },
         "machine_depth": { "default_value": 235 },
+        "machine_end_gcode": { "default_value": "M104 S0 ;Hotend off\nM140 S0 ;Heated bed off\nM107 ;Fans off\nG91 ;Relative positioning\nG1 F300 E-1 ;Retract the filament 1mm\nG90 ;Absolute positioning\nG28 X0 Y0 ;Move to the bottom left\nM84 ; Motors off" },
         "machine_heated_bed": { "default_value": true },
         "machine_height": { "default_value": 250 },
         "machine_name": { "default_value": "AnkerMake M5" },
